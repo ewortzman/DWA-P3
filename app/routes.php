@@ -16,10 +16,14 @@ Route::get('/', function()
 	return View::make('index');
 });
 
-Route::get('/user-generator', function(){
+Route::get('/user', function(){
 	return View::make('user-generator');
 });
 
-Route::get('/lorem-ipsum', function(){
+Route::get('/lorem', function(){
 	return View::make('lorem-ipsum');
+});
+
+Route::get('/about', function(){
+	return View::make('about');
 });
