@@ -20,7 +20,7 @@
         </div>
         <div id="collapseOne" class="panel-collapse collapse">
             <div class="panel-body">
-                <p>I graduated from the <a href="http://www.umass.edu/">University of Massachusetts</a> in 2011 and began pursuing a career in software development.  For 2 years I worked in Virginia for <a href="http://www.mitre.org/">a government contractor<a> before leaving to pursue a position more in line with my goals.</p>
+                <p>I graduated from the <a href="http://www.umass.edu/">University of Massachusetts</a> in 2011 and began pursuing a career in software development.  For 2 years I worked in Virginia for <a href="http://www.mitre.org/">a government contractor</a> before leaving to pursue a position more in line with my goals.</p>
             </div>
         </div>
     </div>
