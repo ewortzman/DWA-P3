@@ -29,7 +29,6 @@
 			</div>
 			<button type="submit" class="btn btn-default">
 				Generate <span class="glyphicon glyphicon-circle-arrow-right"></span>				
-				</div>
 			</button>
 		</fieldset>
 	</form>
