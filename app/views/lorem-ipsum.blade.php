@@ -34,7 +34,6 @@
 		</fieldset>
 	</form>
 
-
 	@if (Request::isMethod('post'))
 	<div class="row">
 		<div class="col-sm-1"></div>
