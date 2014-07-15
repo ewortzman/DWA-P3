@@ -34,15 +34,21 @@
 		</fieldset>
 	</form>
 
-	<div>
-		@if (Request::isMethod('post'))
-			<?php $pars = rand($data['p_min'], $data['p_max']) ?>
-			@for ($i=0;$i<$pars;$i++)
-				<p>{{ $faker->paragraph(rand($data['s_min'], $data['s_max'])) }}</p>
-			@endfor
-		@endif
+
+	@if (Request::isMethod('post'))
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-10">
+				<?php $pars = rand($data['p_min'], $data['p_max']) ?>
+				@for ($i=0;$i<$pars;$i++)
+					<p>{{ $faker->paragraph(rand($data['s_min'], $data['s_max'])) }}</p>
+				@endfor
+	
+		</div>
+		<div class="col-sm-1"></div>
 	</div>
-@stop
+	@endif
+	@stop
 
 @section('script')
 <script type="text/javascript">
