@@ -8,7 +8,7 @@ This application allows the user to generate content randomly.  Content that can
 
 The Lorem Ipsum generator allows the user to generate random paragraphs of text.  The user selects ranges for the number of paragraphs to be generated and the number os sentences per paragraph.
 
-Intended features that were left unimplemented:
+####Intended features that were left unimplemented:
 
 1. generate various styles of text
   * change languages
@@ -24,10 +24,14 @@ The User Data generator allows the user to generate random data relating to pote
 4. an email address
 5. a phone number
 
-Intended features that were left unimplemented
+####Intended features that were left unimplemented
 
 1. export to CSV button
 2. ensure real city/state/zip combination
 3. allow international data
   * different address format
   * international phone numbers
+
+###Other things
+
+There were a few things that were deliberately left out.  For example, I would have preferred to load the results via AJAX, but in the interest of learning to use Laravel's route structure and a RESTful format, I chose to leave that out.  Rather than create a view for the form and a separate view to be returned by the AJAX request, I created only one view and conditionally display the information necessary.
