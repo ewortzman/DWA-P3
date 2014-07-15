@@ -11,12 +11,6 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.min.css">
 
-	<style type="text/css">
-	body{
-		padding-top: 70px;
-	}
-	</style>
-
 	@yield('styles')
 
 </head>
@@ -42,8 +36,9 @@
 		</div>
 	</div>			
 </nav>
-<div class="container">
-	<div class="jumbotron">
+
+<div class="jumbotron">
+	<div class="container">
 	@yield('jumbotron')
 	</div>
 </div>
