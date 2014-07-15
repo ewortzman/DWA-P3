@@ -10,7 +10,7 @@
 		<fieldset>
 			<legend>Options</legend>
 			<div class="form-group">
-				<label for="users" class="col-sm-2 control-label"># of Users</label>
+				<label for="num" class="col-sm-2 control-label"># of Users</label>
 				<div class="col-sm-4">
 					<input type="number" min="1" max="25" class="form-control" name="num" id="num" placeholder="Users" {{ isset($data) ? "value=".$data["num"] : "" }} required>
 				</div>
@@ -26,7 +26,7 @@
 				</div>
 			</div>
 			<div class="form-group">
-				<label for="misc" class="col-sm-2 control-label">Misc</label>
+				<label class="col-sm-2 control-label">Misc</label>
 				<div class="col-sm-4">
 					<label><input type="checkbox" name="options[]" value="username" checked disabled> Username</label><br>
 					<label><input type="checkbox" name="options[]" value="title" {{ isset($options) && in_array('title', $options) ? "checked" : "" }}> Title</label>

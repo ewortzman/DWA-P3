@@ -10,7 +10,7 @@
 		<fieldset>
 			<legend>Options</legend>
 			<div class="form-group">
-				<label for="paragraphs" class="col-sm-2 control-label"># of Paragraphs</label>
+				<label class="col-sm-2 control-label"># of Paragraphs</label>
 				<div class="col-sm-2">
 					<input type="number" min="1" max="25" class="form-control" name="p_min" id="p_min" placeholder="Minimum" {{ isset($data) ? "value=".$data["p_min"] : "" }} required>
 				</div>
@@ -19,7 +19,7 @@
 				</div>
 			</div>
 			<div class="form-group">
-				<label for="sentences" class="col-sm-2 control-label"># of Sentences</label>
+				<label class="col-sm-2 control-label"># of Sentences</label>
 				<div class="col-sm-2">
 					<input type="number" min="1" max="25" class="form-control" name="s_min" id="s_min" placeholder="Minimum" {{ isset($data) ? "value=".$data["s_min"] : "" }} required>
 				</div>
