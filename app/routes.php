@@ -21,10 +21,9 @@ Route::get('/user', function(){
 });
 
 Route::post('/user', function(){
-	$faker = Faker::create();
 	return View::make('user-generator')
 				->with('data', Input::all())
-				->with('faker', $faker);
+				->with('faker', Faker::create());
 });
 
 Route::get('/lorem', function(){
@@ -33,7 +32,8 @@ Route::get('/lorem', function(){
 
 Route::post('/lorem', function(){
 	return View::make('lorem-ipsum')
-				->with('data', Input::all());
+				->with('data', Input::all())
+				->with('faker', Faker::create());
 });
 
 Route::get('/about', function(){
