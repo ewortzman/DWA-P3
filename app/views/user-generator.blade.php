@@ -1,5 +1,9 @@
 @extends('templates.master')
 
+@section('title')
+	User Generator
+@stop
+
 @section('jumbotron')
 	<p>user placeholder</p>
 @stop

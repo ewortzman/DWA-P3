@@ -1,5 +1,9 @@
 @extends('templates.master')
 
+@section('title')
+	About the Author
+@stop
+
 @section('jumbotron')
 	<p>About Placeholder</p>
 @stop

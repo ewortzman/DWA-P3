@@ -1,5 +1,9 @@
 @extends('templates.master')
 
+@section('title')
+	Lorem Ipsum Generator
+@stop
+
 @section('jumbotron')
 	<p>lorem placeholder</p>
 @stop
