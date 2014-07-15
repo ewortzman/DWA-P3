@@ -1,7 +1,9 @@
 @extends('templates.master')
 
 @section('jumbotron')
-	<p>Homepage Placeholder</p>
+	<p>
+	This application allows the user to generate random text or random user information.  Please use the navbar above to navigate.
+	</p>
 @stop
 
 @section('script')

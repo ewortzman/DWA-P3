@@ -6,11 +6,11 @@
 		"/var/www/P3/app/views/emails"
 	],
 	"last_version": 3059,
-	"last_window_id": 4,
+	"last_window_id": 5,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 346.0,
+		"new_window_height": 0.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -19,130 +19,6 @@
 				[
 				]
 			},
-			"build_system": "",
-			"command_palette":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"console":
-			{
-				"height": 0.0,
-				"history":
-				[
-				]
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-			],
-			"find":
-			{
-				"height": 0.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"incremental_find":
-			{
-				"height": 0.0
-			},
-			"input":
-			{
-				"height": 0.0
-			},
-			"menu_visible": false,
-			"output.find_results":
-			{
-				"height": 0.0
-			},
-			"replace":
-			{
-				"height": 0.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_symbol":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": true,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 150.0,
-			"status_bar_visible": true,
-			"template_settings":
-			{
-			}
-		},
-		"new_window_width": 1364.0
-	},
-	"windows":
-	[
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-				]
-			},
-			"buffers":
-			[
-			],
 			"build_system": "",
 			"command_palette":
 			{
@@ -214,11 +90,276 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"num",
+						"numUsers"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/var/www/P3/app/routes.php",
+					"settings":
+					{
+						"buffer_size": 2935,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "<!DOCTYPE html>\n<html>\n   <head>\n      <title>Ethan Wortzman P1</title>\n      <link rel=\"stylesheet\" href=\"stylesheets/default.css\" />\n\n      <script type=\"text/javascript\" >\n         var theme=0;\n         function buttonPress() {\n            theme = (theme+1)%4;\n\n            switch(theme){\n               case 0:\n                  document.getElementById(\"theme\").value=\"Light\";\n                  document.body.style.backgroundColor=\"#ffffff\";\n                  document.body.style.color=\"#000000\";\n                  break;\n               case 1:\n                  document.getElementById(\"theme\").value=\"Dark\";\n                  document.body.style.backgroundColor=\"#000000\";\n                  document.body.style.color=\"#ffffff\";\n                  break;\n               case 2:\n                  document.getElementById(\"theme\").value=\"Cocoa\";\n                  document.body.style.backgroundColor=\"#643b0f\";\n                  document.body.style.color=\"#ffffff\";\n                  break;\n               case 3:\n                  document.getElementById(\"theme\").value=\"Sepia\";\n                  document.body.style.backgroundColor=\"#efe0b9\";\n                  document.body.style.color=\"#643b0f\";\n            }\n         }\n      </script>\n   </head>\n\n   <body>\n      <div id=\"debug\"></div>\n\n<!--\n      The change theme feature does not function as intended.  It has been removed for the project submission.\n\n      Change Theme: <input class=\"button\" type=\"button\" id=\"theme\" onClick=\"buttonPress()\" value=\"Light\" />\n-->\n\n      <h1>Ethan A.B. Wortzman</h1>\n      <img src=\"images/Sox Game.jpg\" />\n\n      <br />\n\n      <h2>In 2+ sentences describe who you are and what you do.</h2>\n      <p>I graduated from the <a href=\"http://www.umass.edu/\">University of\n      Massachusetts</a> in 2011 and began pursuing a career in software\n      development.  For 2 years I worked in Virginia for <a\n      href=\"http://www.mitre.org/\">a government contractor<a> before leaving to\n      pursue a position more in line with my goals.</p>\n\n      <h2>Why are you taking this course?</h2>\n      <p>I am taking this course because I have had only a short foray into web development.  I want to continue to add new skills to my repertoire and web development is something I have enjoyed immensely in the few chances I have had to do it.</p>\n\n      <h2>What previous experience do you have with HTML/CSS?</h2>\n      <p>I have done a small amount of work in HTML and CSS, but all my previous work has been very basic.  I have written some basic websites, and have some academic experience with the Python-based web framework <a href=\"https://www.djangoproject.com/\">Django.</a></p>\n\n      <h2>What previous experience do you have with programming?</h2>\n      <p>I have a degree in Computer Science with a focus in Software Engineering from the University of Massachusetts Amherst. I have extensive programming experience in object-oriented languages. My work has primarily been in Java and Python, though I have worked in C/C++, C#, and PHP.</p>\n\n      <h2>Have you worked with PHP before? If so, to what extent?</h2>\n      <p>I taught myself PHP in 2010 while working an internship for <a href=\"http://www.perfectstormmedia.com/\">an online marketing company</a> in London. This internship was my very first experience with any kind of web development (this is also where I learned HTML and JavaScript).  Since that 4 month internship, I've used PHP very little</p>\n\n      <h2>Are you working on a Mac, PC, or some other platform?</h2>\n      <p>My preferred platform for development is Linux.  For this course, I will be working in <a href=\"http://www.linuxmint.com/\">Linux Mint 16.</a>\n      </p>\n\n      <h2>Anything else we should know?</h2>\n      <p>Hobbies of mine include bicycling, rock climbing, playing trombone, and video games.</p>\n   </body>\n</html>",
+					"file": "/var/www/P1/index.php",
+					"file_size": 3933,
+					"file_write_time": 130493307121995983,
+					"settings":
+					{
+						"buffer_size": 3843,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/var/www/P3/app/views/about.blade.php",
+					"settings":
+					{
+						"buffer_size": 4497,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 54.0,
+				"selected_items":
+				[
+					[
+						"vf",
+						"View: Toggle Open Files in Side Bar"
+					],
+					[
+						"vmen",
+						"View: Toggle Menu"
+					]
+				],
+				"width": 392.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/var/www/P3/app/views/templates/master.blade.php",
+				"/var/www/P3/app/views/index.blade.php",
+				"/var/www/P3/app/views/lorem-ipsum.blade.php",
+				"/var/www/P3/app/views/user-generator.blade.php",
+				"/var/www/P2/index.php",
+				"/var/www/index.php",
+				"/var/www/hello",
+				"/var/www/P3/app/views/about.blade.php"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
 			"groups":
 			[
 				{
+					"selected": 1,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/var/www/P3/app/routes.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2935,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2327,
+										2327
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 1850.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/var/www/P1/index.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3843,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3733,
+										3733
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage",
+									"tab_size": 3,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1030.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 2,
+							"file": "/var/www/P3/app/views/about.blade.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4497,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										576,
+										576
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 116.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -239,11 +380,18 @@
 						0,
 						1,
 						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
 					]
 				],
 				"cols":
 				[
 					0.0,
+					0.0366568914956,
 					1.0
 				],
 				"rows":
@@ -294,7 +442,7 @@
 			"show_minimap": true,
 			"show_open_files": true,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 150.0,
 			"status_bar_visible": true,
 			"template_settings":
