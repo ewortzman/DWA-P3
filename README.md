@@ -37,3 +37,6 @@ The User Data generator allows the user to generate random data relating to pote
 There were a few things that were deliberately left out.  For example, I would have preferred to load the results via AJAX, but in the interest of learning to use Laravel's route structure and a RESTful format, I chose to leave that out.  Rather than create a view for the form and a separate view to be returned by the AJAX request, I created only one view and conditionally display the information necessary.
 
 There are also a couple of things that are somewhat hacked together.  For example, I was unable to get the checkboxes in user-generator to POST properly when non are checked, even though the username box is always checked by default.  to solve this, at the top of my route, I simply check if the options array exists and create an empty one if not.  The causes some code that I consider unnecessary but was unable to figure out how to remove.
+
+###Included libraries
+fzaninotto/faker:	https://packagist.org/packages/fzaninotto/faker
