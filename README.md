@@ -9,6 +9,7 @@ This application allows the user to generate content randomly.  Content that can
 The Lorem Ipsum generator allows the user to generate random paragraphs of text.  The user selects ranges for the number of paragraphs to be generated and the number os sentences per paragraph.
 
 Intended features that were left unimplemented:
+
 1. generate various styles of text
   * change languages
   * manipulate content
@@ -24,6 +25,7 @@ The User Data generator allows the user to generate random data relating to pote
 5. a phone number
 
 Intended features that were left unimplemented
+
 1. export to CSV button
 2. ensure real city/state/zip combination
 3. allow international data
