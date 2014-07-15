@@ -5,7 +5,7 @@
 @stop
 
 @section('jumbotron')
-	<p>user placeholder</p>
+	<p>User Placeholder</p>	
 @stop
 
 @section('script')

@@ -20,8 +20,20 @@ Route::get('/user', function(){
 	return View::make('user-generator');
 });
 
+Route::post('/user', function(){
+	$faker = Faker::create();
+	return View::make('user-generator')
+				->with('data', Input::all())
+				->with('faker', $faker);
+});
+
 Route::get('/lorem', function(){
 	return View::make('lorem-ipsum');
+});
+
+Route::post('/lorem', function(){
+	return View::make('lorem-ipsum')
+				->with('data', Input::all());
 });
 
 Route::get('/about', function(){
