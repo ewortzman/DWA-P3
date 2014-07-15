@@ -31,9 +31,15 @@ Route::get('/lorem', function(){
 });
 
 Route::post('/lorem', function(){
+	$data = Input::all();
+	$faker = Faker::create();
+	$numPars = rand($data['p_min'], $data['p_max']);
+	for ($i = 0; $i<$numPars;$i++){
+		$pars[] = $faker->paragraph(rand($data['s_min'], $data['s_max']));
+	}
+
 	return View::make('lorem-ipsum')
-				->with('data', Input::all())
-				->with('faker', Faker::create());
+				->with('paragraphs', $pars);
 });
 
 Route::get('/about', function(){

@@ -29,7 +29,7 @@
 
 		<div class="collapse navbar-collapse" id="navbar-collapse">
 			<ul class="nav navbar-nav">
-				<li id="nav_lorem"><a href="/lorem">Lorem Ipsum</a></li>
+				<li id="nav_lorem"><a href="/lorem">Lorem Ipsum Generator</a></li>
 				<li id="nav_user"><a href="/user">User Generator</a></li>
 				<li id="nav_about"><a href="/about">About the Author</a></li>
 			</ul>					
