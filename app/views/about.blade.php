@@ -6,7 +6,7 @@
 
 @section('jumbotron')
 <br>
-<img src="images/Sox Game.jpg" width="200" alt=""/>
+<img src="/images/Sox Game.jpg" width="200" alt=""/>
 <h2>Ethan A.B. Wortzman</h2>
 
 <br>
